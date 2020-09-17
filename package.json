@@ -6,12 +6,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint:eslint": "eslint --format friendly .",
+    "lint:prettier": "prettier --check './**/*.{md,json,js}'",
+    "lint:fix": "eslint --fix . && prettier --write './**/*.{md,json,js}'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-formatter-friendly": "^7.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-security": "^1.4.0",
     "next": "^9.5.3",
+    "prettier": "^2.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
