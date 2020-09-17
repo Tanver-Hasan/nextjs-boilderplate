@@ -1,4 +1,4 @@
-import "../styles/style.css";
+import "../styles/styles.css";
 
 // eslint-disable-next-line react/prop-types
 export default function MyApp({ Component, pageProps }) {
