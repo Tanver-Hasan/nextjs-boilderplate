@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 80",
     "lint:eslint": "eslint --format friendly .",
     "lint:prettier": "prettier --check './**/*.{md,json,js}'",
     "lint:fix": "eslint --fix . && prettier --write './**/*.{md,json,js}'"
