@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "next start -p 80",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 80",
     "lint:eslint": "eslint --format friendly .",
     "lint:prettier": "prettier --check './**/*.{md,json,js}'",
     "lint:fix": "eslint --fix . && prettier --write './**/*.{md,json,js}'"
@@ -16,11 +16,11 @@
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "babel-plugin-styled-components": "^1.11.1",
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-formatter-friendly": "^7.0.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react": "^7.21.2",
     "eslint-plugin-security": "^1.4.0",
     "next": "^9.5.3",
     "node-fetch": ">=2.6.1",
@@ -29,6 +29,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "node-fetch": ">=2.6.1"
+    "node-fetch": ">=2.6.1",
+    "webpack": "^5.0.0"
   }
 }
