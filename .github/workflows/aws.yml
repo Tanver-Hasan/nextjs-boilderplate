@@ -71,7 +71,7 @@ jobs:
       id: task-def-web
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-        task-definition: deploy/task-definition-webapp.json
+        task-definition: deploy/task-defination-webapp.json
         container-name: jamuna-webapp
         image: ${{ steps.build-image-web.outputs.image }}
 
