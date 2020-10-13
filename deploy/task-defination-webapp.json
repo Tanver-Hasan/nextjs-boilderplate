@@ -37,7 +37,7 @@
         "memoryReservation": 256,
         "volumesFrom": [],
         "stopTimeout": null,
-        "image": "140614661520.dkr.ecr.eu-central-1.amazonaws.com/jamuna-webapp",
+        "image": "140614661520.dkr.ecr.eu-central-1.amazonaws.com/jamuna-webapp:latest",
         "startTimeout": null,
         "firelensConfiguration": null,
         "dependsOn": null,
