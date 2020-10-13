@@ -79,7 +79,7 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def-web.outputs.task-definition }}
-        service: jamuna-webapp
+        service: jamuna-webapp-service
         cluster: jamuna-webapp-cluster
 
         wait-for-service-stability: true
