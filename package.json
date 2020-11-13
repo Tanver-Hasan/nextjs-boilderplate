@@ -27,7 +27,7 @@
     "prettier": "^2.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "webpack": "^5.0.0"
+    "webpack": "^5.2.0"
   },
   "devDependencies": {
     "node-fetch": ">=2.6.1"
