@@ -23,13 +23,13 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-security": "^1.4.0",
     "next": "^10.0.3",
-    "node-fetch": ">=2.6.1",
+    "node-fetch": ">=2.7.0",
     "prettier": "^2.2.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "webpack": "^5.4.0"
   },
   "devDependencies": {
-    "node-fetch": ">=2.6.1"
+    "node-fetch": ">=2.7.0"
   }
 }
